@@ -1,0 +1,716 @@
+    a {
+        text-decoration: none;
+    }
+    
+    .container {
+        width: auto;
+    }
+    
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: lightgrey;
+    }
+    /*导航开始*/
+    /*导航黑色部分*/
+    
+    .top {
+        position: absolute;
+    }
+    
+    .txt {
+        position: relative;
+        float: right;
+        font-size: 13px;
+        color: white;
+        line-height: 50px;
+        margin-right: 10px;
+    }
+    
+    #one {
+        font-size: 20px;
+        margin-right: 60px;
+    }
+    
+    #three {
+        margin-right: 100px;
+    }
+    /*导航第二部分*/
+    
+    #brand {
+        width: 300px;
+        height: 86px;
+        padding-left: 100px;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+    
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 35px;
+        height: 4px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        background-color: black;
+    }
+    
+    #btn1 {
+        width: 120px;
+        height: 50px;
+        margin-top: 5px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: orangered;
+        float: right;
+    }
+    
+    #biaoqian {
+        margin-top: 25px;
+    }
+    
+    #biaoqian li {
+        width: 90px;
+        margin-left: 10px;
+    }
+    
+    #biaoqian li:first-child {
+        width: 60px;
+        margin-left: 60px;
+    }
+    
+    #biaoqian li a:focus {
+        color: orangered;
+        border-bottom: 4px solid orangered;
+    }
+    
+    #biaoqian a {
+        color: black;
+    }
+    
+    #active a {
+        color: orangered;
+        border-bottom: 4px solid orangered;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container-fluid {
+            background-color: white;
+        }
+        #brand {
+            margin-left: -40px;
+        }
+    }
+    /*banner部分开始*/
+    /*文字部分*/
+    
+    .banner {
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #title-1 {
+        position: absolute;
+        top: 80px;
+        left: 120px;
+        color: white;
+        font-size: 40px;
+        font-family: '幼圆';
+    }
+    
+    #title-2 {
+        position: absolute;
+        top: 140px;
+        left: 120px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    #title-3 {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        color: white;
+        font-size: 20px;
+        font-family: '幼圆';
+        display: none;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #title-1 {
+            top: 35px;
+            left: 30px;
+            font-size: 36px;
+        }
+        #title-2 {
+            display: none;
+        }
+        #title-3 {
+            display: block;
+        }
+    }
+    /*搜索框部分*/
+    
+    #sousuo {
+        width: 500px;
+        margin: -90px auto;
+        border: 5px solid black;
+        border-radius: 5px;
+    }
+    
+    #sousuo-1 {
+        width: 125px;
+    }
+    
+    #sousuo-2 {
+        height: 45px;
+    }
+    
+    #sousuo-3 {
+        width: 100px;
+        background-color: #cb5405;
+        border-color: #cb5405;
+    }
+    /*body部分开始*/
+    /*车辆接送部分*/
+    
+    #first {
+        width: 1200px;
+        margin: 150px auto;
+        position: relative;
+    }
+    
+    #zuo {
+        background-color: #17336e;
+        height: 338px;
+        margin-left: -15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    #zuo-1 {
+        margin-top: 85px;
+        margin-left: 85px;
+    }
+    
+    #zuo-2 {
+        color: white;
+        margin-left: 85px;
+    }
+    
+    #zuo-3 {
+        width: 200px;
+        background-color: #17336e;
+        border: 2px solid white;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    
+    #zhong {
+        position: absolute;
+        top: 20px;
+        left: 500px;
+        color: white;
+    }
+    
+    .zhong-2 {
+        font-size: 16px;
+    }
+    
+    #phone-1 {
+        display: none;
+        height: 195px;
+        background-color: white;
+        margin-top: 135px;
+        border-top: 10px solid lightgray;
+    }
+    
+    #inner {
+        margin: 0 auto;
+    }
+    
+    #inner-1 {
+        margin-top: 45px;
+        margin-left: 85px;
+    }
+    
+    #inner-2 {
+        margin-left: 190px;
+        margin-top: -90px;
+        color: #1c5080;
+    }
+    
+    .inner-3 {
+        margin-left: 190px;
+        font-size: 16px;
+    }
+    
+    #inner-4 {
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        border: 1px solid #b5b5b5;
+        background-color: white;
+        margin-left: 470px;
+        margin-top: -150px;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #first {
+            display: none;
+        }
+        #phone-1 {
+            display: block;
+        }
+    }
+    /*热门线路部分*/
+    
+    #luxian {
+        position: relative;
+        margin-top: -150px;
+    }
+    
+    #luxian1-1 {
+        margin: 10px auto;
+        width: 220px;
+    }
+    
+    #luxian1-2 {
+        margin-top: 35px;
+        margin-left: 27px;
+        display: none;
+        font-size: 30px;
+    }
+    /*左侧部分*/
+    
+    #luxian2 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #luxian2-1 {
+        margin-left: 10px;
+    }
+    
+    #luxian2-2 {
+        margin-top: 10px;
+        width: 650px;
+    }
+    
+    .bot1 {
+        height: 80px;
+        background-color: black;
+        color: white;
+        padding-top: 15px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    
+    .bot1-1 {
+        margin-left: 20px;
+    }
+    
+    .phone-bot1 {
+        height: 110px;
+        width: 650px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding-top: 20px;
+        position: relative;
+        left: 0;
+        top: -110px;
+        display: none;
+        font-size: 24px;
+    }
+    
+    .phone-bot1-1 {
+        float: right;
+        margin-right: 30px;
+        margin-top: -25px;
+    }
+    
+    #luxian3 {
+        margin-left: -25px;
+    }
+    
+    .bot2 {
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding-top: 15px;
+        position: relative;
+        left: 0;
+        top: -70px;
+    }
+    
+    .bot2-1 {
+        margin-left: 24px;
+    }
+    
+    .bot2-2 {
+        margin-left: 20px;
+    }
+    
+    .bot2-3 {
+        font-size: 20px;
+    }
+    
+    #more {
+        width: 200px;
+        height: 50px;
+        display: none;
+        font-size: 24px;
+        color: gray;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-left: 250px;
+        margin-top: -250px;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #luxian1-1 {
+            display: none;
+        }
+        #luxian1-2 {
+            display: block;
+        }
+        #luxian {
+            margin-top: -20px;
+        }
+        #biankuang {
+            border-top: 10px solid lightgray;
+        }
+        .phone-bot1 {
+            display: block;
+        }
+        .bot1 {
+            display: none;
+        }
+        #luxian3 {
+            display: none;
+        }
+        #more {
+            display: block;
+        }
+    }
+    /*使命与愿景部分*/
+    
+    #shiming {
+        margin-top: -60px;
+    }
+    
+    #beijing {
+        background-image: url(../img/back.png);
+    }
+    
+    #shiming1-1 {
+        margin: 10px auto;
+        width: 220px;
+        text-align: center;
+    }
+    
+    #phone-shiming {
+        margin-top: 35px;
+        margin-left: 15px;
+        display: none;
+        font-size: 30px;
+    }
+    
+    #phone-shiming1 {
+        color: red;
+    }
+    
+    #phone-shiming2 {
+        font-size: 20px;
+    }
+    
+    #phone-shiming3 {
+        color: lightgray;
+        font-size: 14px;
+    }
+    
+    #shiming2 {
+        width: 1200px;
+        margin: 25px auto;
+    }
+    
+    #pclinian {
+        background-color: #17336e;
+        opacity: 0.7;
+        height: 350px;
+        width: 675px;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    
+    #pclinian-1 {
+        width: 420px;
+        height: 215px;
+        margin: 85px auto;
+        color: white;
+    }
+    
+    #pclinian-2 {
+        margin-left: 120px;
+    }
+    
+    #pclinian-3 {
+        margin-top: 30px;
+        line-height: 25px
+    }
+    
+    #linian2-1 {
+        display: none;
+        font-size: 20px;
+        padding: 25px;
+    }
+    
+    #linian2-2 {
+        margin-top: -20px;
+        width: 1200px;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #shiming {
+            margin-top: 20px;
+        }
+        #phone-shiming {
+            display: block;
+        }
+        #shiming2-1 {
+            width: 650px;
+        }
+        #pclinian {
+            display: none;
+            height: 170px;
+        }
+        #linian2-1 {
+            display: block;
+        }
+        #linian-3 {
+            width: 650px;
+            margin-top: 15px;
+        }
+    }
+    /*pc品质部分*/
+    
+    #pinzhi {
+        height: 370px;
+        margin-top: 5px;
+        color: white;
+        line-height: 25px;
+    }
+    
+    #pinzhi-1 {
+        background-color: #17336e;
+        width: 1170px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    
+    #pinzhi1-1 {
+        height: 400px;
+        text-align: center;
+    }
+    
+    #pinzhi1-2 {
+        height: 400px;
+        text-align: center;
+    }
+    
+    #pinzhi1-3 {
+        height: 400px;
+        text-align: center;
+    }
+    
+    .example {
+        width: 195px;
+        height: 200px;
+        background-image: url(../img/rorate.png);
+        background-repeat: no-repeat;
+        margin: 40px auto;
+        text-align: center;
+    }
+    
+    .example-1 {
+        margin-top: 50px;
+    }
+    /*phone优势部分*/
+    
+    #youshi {
+        display: none;
+        background-color: white;
+    }
+    
+    #title {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #youshi-1 {
+        width: 650px;
+        margin-left: 5px;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    #youshi-2 {
+        width: 650px;
+        margin-left: 5px;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    #youshi-3 {
+        width: 650px;
+        margin-left: 5px;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .youshi2 {
+        width: 120px;
+        height: 120px;
+        margin: 50px auto;
+    }
+    
+    .youshi3 {
+        margin-top: 60px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #youshi {
+            display: block;
+        }
+        #pinzhi {
+            display: none;
+        }
+    }
+    /*底部开始*/
+    
+    #pcbottom {
+        background-color: black;
+        color: rgb(167, 163, 163);
+        height: 370px;
+    }
+    
+    #pcbottom-1 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #pcbottom-one {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    #one-1 {
+        margin-top: 10px;
+        margin-left: 30px
+    }
+    
+    #one-2 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    #one-3 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    #one-4 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #pcbottom-two {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #pcbottom1 {
+        flex-wrap: wrap;
+        display: flex;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+    
+    #pcbottom1 li {
+        margin-right: 6px;
+    }
+    
+    #pcbottom-three {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #pcbottom2 {
+        flex-wrap: wrap;
+        display: flex;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+    
+    #pcbottom2 li {
+        margin-right: 6px;
+    }
+    
+    #pcbottom-four {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #pcbottom3 {
+        flex-wrap: wrap;
+        display: flex;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+    
+    #pcbottom3 li {
+        margin-right: 6px;
+    }
+    
+    #shuoming {
+        border-top: 1px solid gray;
+        color: white;
+        background-color: black;
+    }
+    
+    #shuoming-1 {
+        margin: 20px auto;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    
+    #phone-shuoming {
+        margin-top: 70px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+    }
+    
+    #phone-shuoming1 {
+        margin: 20px auto;
+        text-align: center;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    
+    .phone-shuoming2 {
+        font-size: 16px;
+    }
+    
+    @media screen and (max-width:1200px) {
+        #pcbottom {
+            display: none;
+        }
+        #shuoming {
+            display: none;
+        }
+        #phone-shuoming {
+            display: block;
+        }
+    }
